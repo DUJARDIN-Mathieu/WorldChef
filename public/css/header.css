@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+.burger, .menu, .background {
+    position: fixed;
+}
+.burger {
+    z-index: 4;
+    top: 0;
+    right: 0;
+    display: grid;
+    place-items: center;
+    width: 88px;
+    height: 80px;
+    background-image: url("menu.svg");
+}
